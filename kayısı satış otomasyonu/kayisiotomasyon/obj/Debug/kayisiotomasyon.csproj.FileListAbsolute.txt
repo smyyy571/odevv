@@ -1,0 +1,24 @@
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\bin\Debug\kayisiotomasyon.exe.config
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\bin\Debug\kayisiotomasyon.exe
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\bin\Debug\kayisiotomasyon.pdb
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.Anasayfa.resources
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.kayisibilgi.resources
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.saticiekle.resources
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.Properties.Resources.resources
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.Saticisil.resources
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.stokgüncelle.resources
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.yoneicigiris.resources
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.yoneticisayfasi.resources
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.üyegiris.resources
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.üyeol.resources
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.exe
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.pdb
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.saticigiris.resources
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.saticisayfası.resources
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.musteriler.resources
+C:\Users\lenovo\Desktop\ntpödev\kayisiotomasyon\kayisiotomasyon\obj\Debug\kayisiotomasyon.satisdurum.resources
+C:\Users\lenovo\Desktop\kayısı satış otomasyonu\kayisiotomasyon\bin\Debug\kayisiotomasyon.exe.config
+C:\Users\lenovo\Desktop\kayısı satış otomasyonu\kayisiotomasyon\obj\Debug\kayisiotomasyon.exe
+C:\Users\lenovo\Desktop\kayısı satış otomasyonu\kayisiotomasyon\obj\Debug\kayisiotomasyon.pdb

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB9463BE-484F-4E75-86FA-468930270D8F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>kayisiotomasyon</RootNamespace>
+    <AssemblyName>kayisiotomasyon</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.Designer.cs">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kayisibilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kayisibilgi.Designer.cs">
+      <DependentUpon>kayisibilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kayisiDataSet.cs">
+      <DependentUpon>kayisiDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="kayisiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kayisiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="musteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteriler.Designer.cs">
+      <DependentUpon>musteriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="saticiekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="saticiekle.Designer.cs">
+      <DependentUpon>saticiekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="saticigiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="saticigiris.Designer.cs">
+      <DependentUpon>saticigiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="saticisayfası.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="saticisayfası.Designer.cs">
+      <DependentUpon>saticisayfası.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Saticisil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saticisil.Designer.cs">
+      <DependentUpon>Saticisil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="satisdurum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="satisdurum.Designer.cs">
+      <DependentUpon>satisdurum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stokgüncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stokgüncelle.Designer.cs">
+      <DependentUpon>stokgüncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yoneicigiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yoneicigiris.Designer.cs">
+      <DependentUpon>yoneicigiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yoneticisayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yoneticisayfasi.Designer.cs">
+      <DependentUpon>yoneticisayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="üyegiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="üyegiris.Designer.cs">
+      <DependentUpon>üyegiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="üyeol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="üyeol.Designer.cs">
+      <DependentUpon>üyeol.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Anasayfa.resx">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kayisibilgi.resx">
+      <DependentUpon>kayisibilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteriler.resx">
+      <DependentUpon>musteriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="saticiekle.resx">
+      <DependentUpon>saticiekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="saticigiris.resx">
+      <DependentUpon>saticigiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="saticisayfası.resx">
+      <DependentUpon>saticisayfası.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Saticisil.resx">
+      <DependentUpon>Saticisil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="satisdurum.resx">
+      <DependentUpon>satisdurum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stokgüncelle.resx">
+      <DependentUpon>stokgüncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yoneicigiris.resx">
+      <DependentUpon>yoneicigiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yoneticisayfasi.resx">
+      <DependentUpon>yoneticisayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="üyegiris.resx">
+      <DependentUpon>üyegiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="üyeol.resx">
+      <DependentUpon>üyeol.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="kayisiDataSet.xsc">
+      <DependentUpon>kayisiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="kayisiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kayisiDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kayisiDataSet.xss">
+      <DependentUpon>kayisiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apricot-PNG-transparent-images-free-download-clipart-pics-Apricot-PNG-Transparent-Image.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
